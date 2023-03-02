@@ -9,24 +9,24 @@ public class Main {
     public static void main(String[] args) {
         int x = 3;
         String name = "Drik";
-        doSomething(x, name);
-        doSomethingAgainAndAgain(x, name);
+        doSomething(x);
+        doSomethingAgainAndAgain(x);
         doSomethingUnderThisCondition(x, name);
     }
 
-    private static void doSomething(int x, String name) {
+    private static void doSomething(int x) {
         x = x * 17;
         System.out.println("x is " + x);
         double d = Math.random();
         // this is a comment
     }
 
-    private static void doSomethingAgainAndAgain(int x, String name) {
+    private static void doSomethingAgainAndAgain(int x) {
         while (x > 12) {
             x= x -1;
         }
 
-        for (int x = 0; x < 10; x++) {
+        for (x = 0; x < 10; x++) {
             System.out.println("x is now " + x);
         }
     }
