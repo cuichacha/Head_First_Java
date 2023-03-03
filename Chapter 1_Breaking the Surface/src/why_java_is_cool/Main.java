@@ -39,15 +39,15 @@ public class Main {
     private static void readTheFile(String path) throws FileNotFoundException {
 
     }
+}
 
-    private record Dog(String name, int size) {
+record Dog(String name, int size) {
 
-        public void bark(int times) {
+    public void bark(int times) {
 
-        }
+    }
 
-        public void play() {
+    public void play() {
 
-        }
     }
 }
